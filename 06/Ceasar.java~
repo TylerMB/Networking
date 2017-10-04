@@ -1,0 +1,15 @@
+
+
+public class Ceasar{
+
+
+    public static void main(String [] args){
+
+        String encrypt = "";
+        FileInputStream in = new FileInputStream(new File("input.txt"));
+        while(in.read() != -1){
+            encrpyt.append((in.read()+args[0]) % 255);
+        }
+        System.out.print(encrypt);
+    }
+}

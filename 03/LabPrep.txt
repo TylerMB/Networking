@@ -1,0 +1,39 @@
+Q1: static InputStream
+
+Q2: read() 
+
+Q3: an abstract int
+
+Q4: returns -1 if end of stream
+
+Q5: final PrintStream
+
+Q6: write(int b)
+
+Q7: it takes an int value
+
+Q8:   try{
+
+InputStream in = System.in;
+OutputStream out = System.out;
+int b = in.read( );
+write(b);
+
+}catch(IOException e){
+}
+
+
+Q9:  String line = Scanner(System.in).next()
+
+Q10: returns a string, it will return a NoSuchElementException if end of buffer
+
+Q11: String line = Scanner(Keyboard);
+
+Q12: scan.hasNextLine()
+
+Q13: scan.nextLine() will return a String value
+
+Q14: if(scan.hasNext()){
+		string = scan.next();
+	}
+

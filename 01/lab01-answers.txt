@@ -1,0 +1,34 @@
+Exercise 1.
+
+  Absolute or relative paths?
+  
+  /home/cshome/u/username  abs
+                  244/bin  relative
+                  /bin/ls  abs
+                 bin/sort  relative
+              /usr/bin/wc  abs
+   home/cshome/u/username  relative
+     ../cshome/u/username  relative
+                 ~/newdir  abs
+                /bin/sort  abs
+
+Exercise 2.
+
+  Files in /home/cshome/coursework/244/files/01
+
+  Alice.txt     Daniel.jpg     France.jpg     sample-text.txt     aonther_directory      dir1       greeting.txt
+
+  Files in /home/cshome/coursework/244/files/01/dir1
+
+  1file.txt     another_file.txt     long-list-files.txt
+
+
+Exercise 3.
+
+  1. C-a
+  2. C-e
+  3. M-k
+  4. C-x 2
+  5. C-x 1
+  6. moves the frame around the cursor (center, top, bottom)
+  7. C-l clears the terminal window C-k also kills the line in terminal, also cursor movement commands

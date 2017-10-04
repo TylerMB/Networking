@@ -1,0 +1,28 @@
+1) PrimeRun p = new PrimeRun(143);
+   new Thread(p).start();
+   - implement runnable class and then instantiate and start it
+
+   PrimeThread p = new PrimeThread(143);
+   p.start();
+   - extend Thread class, instantiate itand start it
+
+2) public void run() {}
+
+3) start();
+
+4) new ReadWriteThread(System.in, socket.getOutputStream()).start();
+   new ReadWriteThread(socket.getInputStream(), System.out).start();
+
+5) create two instances of ReadWriteThread, giving them different inputs
+   and outputs, then starts both of them infinitely looping
+
+6) no, they are both executed separately and do not depend on each other
+
+7) public class Client {
+   int port = Integer.parseInt(args[0]);
+   socket = new Socket(args[1], port);
+   System.err.println("Connected to" +args[1] + "on port" + port);
+   new ReadWriteThread(System.in, socket.getOutputStream()).start();
+   new ReadWriteThread(socket.getInputeStream(), System.out).start();
+   
+8) because there is different timers set on the sleep delays

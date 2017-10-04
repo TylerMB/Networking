@@ -1,0 +1,30 @@
+1) prints a line of text to the output stream
+
+2) the socket's output stream
+
+3) so that the ID can be printed out when the ClientHandler object is printed.
+
+4) no a new number is given, because the int count is incremented and used as
+   the ID for the new client.
+
+5)  lines 12->13 then 20->24
+
+    try {
+       new ChatServer().startServer(Integer.parseInt(args[0]));
+        
+       public void startServer(int port) throws Exception {
+           ServerSocket serverSocket = new ServerSocket(port);
+           System.err.println("ChatServer started");
+           while(true) {
+                ClientHandler ch = new ClientHandler(serverSocket.accept());
+
+6) 3 + 3*2 + 1 = 10
+
+7) Three ClientHandler threads send a welcome message.
+
+   All start continious while loop which calls the sendAll method if a line is read by ChatServer.
+
+   Three clients start two threads each one for reading and sending input to
+   the server and one for reading and sending from the server to stdout. 
+
+   The first thread starts a while loop that listens for new connections and starts all threads.

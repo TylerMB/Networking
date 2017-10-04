@@ -1,0 +1,66 @@
+EXCLUSIVE OR
+Q1: What is the symbol for the exclusive OR operator in Java?
+
+A1: ^
+
+
+FileInputStram
+Q2: What is this class meant for?
+
+A2: It is meant for reading streams of raw bytes.
+
+
+Q3: Write a statement that uses a constructor to create a new FileInputStream and
+opens a file for reading.
+
+A3: FileInputStream in = new FileInputStream(new File("sample.txt"));
+
+
+Q4: What method do you use to read a single byte? What does it return?
+
+A4: read() returns the next byte or -1 if it has reached EOF.
+
+
+FILEOUTPUTSTREAM
+Q5: What is this class meant for?
+
+A5: It meant for writing steams of raw bytes to a file.
+
+
+Q6: Write a statement that uses a constructor to create a new FileOutputStream and
+opens a file for writing.
+
+A6: FileOutputStream out = new FileOutputStream(new File("sample.txt"));
+
+
+Q7: What is the signature of the method which writes single bytes?
+
+A7: write(int b)
+
+
+Q8: What method should you call when you are finished writing output?
+
+A8: close()
+
+
+COMMAND LINE ARGUMENTS
+Q9: Both of the programs you will implement require you to use the command line
+arguments. To get some practice with this, write a program (you don’t have to compile it) which takes two arguments. The first argument should be a word and the second argument should be a number which determines how many times to print out the word
+
+A9: 
+
+public class PrintWord {
+
+	public static main(String [] args){
+	
+		for(int i = 0; i < Integer.parseInt(args[1]; i++){
+			System.out.println(args[0]);
+		}
+
+	}
+
+
+}
+
+
+

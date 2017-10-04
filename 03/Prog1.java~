@@ -1,0 +1,18 @@
+import java.lang.*;
+import java.util.*;
+
+public class Prog1{
+
+    public static void main(String [] args){
+        InputStream in = System.in;
+        OutputStream out = System.out;
+
+        while(in.hasNext()){
+
+            out.print(in);
+        }
+
+
+    }
+
+}

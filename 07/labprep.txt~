@@ -1,0 +1,24 @@
+Q1) InputStreamReader is a bridge from byte streams to character streams
+ Q2) consider wrapping an InputStreamReader within a BufferedReader 
+
+BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+
+ Q3) readLine() returns a string
+
+ Q4) println(String x) returns void, it prints out a line and then terminates that line
+ Q5) ServerSocket(int port)
+Creates a server socket, bound to the specified port.
+
+ Q6) accept()
+Listens for a connection to be made to this socket and accepts it.
+
+ Q7) Socket(InetAddress address, int port)
+ Q8) Returns an input stream for this socket.
+ Q9) getOutputStream()
+ Q10)  it represents the time at which it was allocated, measured to the nearest millisecond.
+ Q11)  
+import java.util.*;
+
+Date date = new Date();
+System.out.println(data);
+ Q12) there is an error with either the host or the port 
